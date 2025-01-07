@@ -1,0 +1,13 @@
+dbt_demo:
+  outputs:
+    dev:
+      account: YNFZCCG-AM86726
+      database: raw
+      password: dbtPassword123
+      role: transform
+      schema: airbin
+      threads: 3
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev

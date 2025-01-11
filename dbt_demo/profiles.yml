@@ -6,7 +6,7 @@ dbt_demo:
       password: dbtPassword123
       role: transform
       schema: airbin
-      threads: 3
+      threads: 1
       type: snowflake
       user: dbt
       warehouse: COMPUTE_WH

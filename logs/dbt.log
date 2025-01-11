@@ -150,3 +150,72 @@ Happy modeling!
 [0m13:23:05.588421 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CDC7D7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CFF788C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000243CE3DF9E0>]}
 [0m13:23:05.590443 [debug] [MainThread]: Flushing usage events
 [0m13:23:05.989986 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:07:01.896548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C23562C200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C23562E120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C23562E4E0>]}
+
+
+============================== 19:07:01.896548 | 1fdfe702-afb5-4c5e-9974-c8df5e95f967 ==============================
+[0m19:07:01.896548 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:07:01.896548 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lokesh.2.yadav\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:07:05.584078 [debug] [MainThread]: Starter project path: C:\Users\lokesh.2.yadav\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m19:07:05.599669 [info ] [MainThread]: 
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:07:05.599669 [info ] [MainThread]: Setting up your profile.
+[0m19:08:35.651340 [info ] [MainThread]: Profile dbt_demo written to C:\Users\lokesh.2.yadav\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:08:35.651340 [debug] [MainThread]: Command `dbt init` succeeded at 19:08:35.651340 after 94.00 seconds
+[0m19:08:35.651340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2358612B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C233308440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C235F71130>]}
+[0m19:08:35.651340 [debug] [MainThread]: Flushing usage events
+[0m19:08:36.186086 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:09:33.615067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248EE31E660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248EE31DB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248EE31E1E0>]}
+
+
+============================== 19:09:33.630614 | e6828691-3779-4bc3-aa5f-84970df5a13b ==============================
+[0m19:09:33.630614 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:09:33.630614 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lokesh.2.yadav\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m19:09:37.396366 [info ] [MainThread]: A project called dbt_demo already exists here.
+[0m19:09:37.396366 [debug] [MainThread]: Command `dbt init` succeeded at 19:09:37.396366 after 4.14 seconds
+[0m19:09:37.396366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248ED825F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248EDFE6870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248EE3C7FE0>]}
+[0m19:09:37.396366 [debug] [MainThread]: Flushing usage events
+[0m19:09:38.677627 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:09:56.047799 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F419C290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F419E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F419D550>]}
+
+
+============================== 19:09:56.048804 | f7c2a3a6-d746-40a0-aa9d-8a8b9eea22d0 ==============================
+[0m19:09:56.048804 [info ] [MainThread]: Running with dbt=1.9.1
+[0m19:09:56.048804 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lokesh.2.yadav\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:09:59.692004 [debug] [MainThread]: Starter project path: C:\Users\lokesh.2.yadav\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m19:09:59.723179 [info ] [MainThread]: 
+Your new dbt project "dbt_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:09:59.723179 [info ] [MainThread]: Setting up your profile.
+[0m19:10:56.158802 [info ] [MainThread]: Profile dbt_demo written to C:\Users\lokesh.2.yadav\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:10:56.174436 [debug] [MainThread]: Command `dbt init` succeeded at 19:10:56.174436 after 60.68 seconds
+[0m19:10:56.174436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F41CB8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F4E412B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231F30D6E70>]}
+[0m19:10:56.174436 [debug] [MainThread]: Flushing usage events
+[0m19:10:57.205692 [debug] [MainThread]: An error was encountered while trying to flush usage events

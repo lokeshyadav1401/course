@@ -5,7 +5,7 @@ dbt_demo:
       database: raw
       password: dbtPassword123
       role: transform
-      schema: airbin
+      schema: airbnb
       threads: 1
       type: snowflake
       user: dbt

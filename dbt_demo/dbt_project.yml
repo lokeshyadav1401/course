@@ -5,11 +5,24 @@ profile: 'dbt_demo'
 
 model-paths: ["models"]
 macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+
 
 models:
   dbt_demo:
-    # Config indicated by + and applies to all files under models/example/
     staging:
-      database: stg
-      schema: airbnb
+      +database: stg
+      +schema: airbnb
+      +materialized: ephemeral
+    integration:
+      +database: int
+      +schema: airbnb
       +materialized: table
+    
+seeds:
+  dbt_demo:
+    +database: int
+    +schema: airbnb
